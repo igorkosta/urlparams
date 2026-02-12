@@ -1,8 +1,11 @@
 # Publish to npm whenever a tag is pushed
 name: Publish to npm
+
 on:
   push:
-    tags: v*
+    branches:
+      - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
