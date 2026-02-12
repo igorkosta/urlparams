@@ -12,6 +12,7 @@ Useful for parsing URLs, handling query strings, or normalizing request paramete
 npm install @igorkosta/urlparams
 
 ## Basic Example
+
 ```node
 import urlparams from "@igorkosta/urlparams";
 
@@ -40,7 +41,7 @@ console.log(params);
 
 ## Repeated parameters
 
-```nod
+```node
 import urlparams from "@igorkosta/urlparams";
 
 const params = urlparams("https://example.com/?tag=js&tag=node&tag=web");
