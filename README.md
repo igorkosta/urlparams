@@ -10,6 +10,7 @@ Useful for parsing URLs, handling query strings, or normalizing request paramete
 
 ```bash
 npm install @igorkosta/urlparams
+```
 
 ## Basic Example
 
